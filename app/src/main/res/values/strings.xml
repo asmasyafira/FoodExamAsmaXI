@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoodExamAsmaXI</string>
+    <string name="title_seafood">Seafood</string>
+    <string name="title_dessert">Dessert</string>
+    <string name="title_profile">Profile</string>
+    <string name="login_account">Login Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">Asma Syafira</string>
+    <string name="user_grade">XI Grade</string>
+    <string name="logout">Log Out</string>
+    <string name="LogOut">Log Out</string>
+    <string name="place">Cileungsi, Bogor</string>
+    <string name="food">Food</string>
+</resources>

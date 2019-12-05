@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_log_in"
+    tools:context=".activities.LogInActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/user_profile_image_background"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_account"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/login_account"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/login_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:layout_margin="@dimen/login_margin"
+        android:background="@color/login"
+        android:elevation="4dp"
+        android:padding="10dp">
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_login_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+</RelativeLayout>
